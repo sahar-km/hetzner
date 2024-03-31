@@ -174,7 +174,7 @@ export default {
                             env,
                             host, 
                             "https://8.8.8.8/dns-query", 
-                            "8.8.8.8", 
+                            "1.1.1.1", 
                             "100", 
                             "200", 
                             "10", 
