@@ -1,13 +1,15 @@
 // @ts-nocheck
+// <!--GAMFC-->version base on commit 43fad05dcdae3b723c53c226f8181fc5bd47223e, time is 2023-06-22 15:20:02 UTC<!--GAMFC-END-->.
 // @ts-ignore
-
-
-
-
+// Many thanks to github.com/bia-pain-bache
 
 import { connect } from 'cloudflare:sockets';
 
+// How to generate your own UUID:
+// https://www.uuidgenerator.net/
 let userID = '00ab1ddf-249b-421e-8161-df9de884fbe4';
+
+
 
 const proxyIPs= ['workers.cloudflare.cyou', '62.3.12.185'];// OR USE const proxyIPs = ['cdn.xn--b6gac.eu.org', 'cdn-all.xn--b6gac.eu.org', 'edgetunnel.anycast.eu.org'];
 
