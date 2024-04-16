@@ -11,11 +11,11 @@ let userID = '00ab1ddf-249b-421e-8161-df9de884fbe4';
 
 
 
-const proxyIPs= ['workers.cloudflare.cyou', '62.3.12.185'];// OR USE const proxyIPs = ['cdn.xn--b6gac.eu.org', 'cdn-all.xn--b6gac.eu.org', 'edgetunnel.anycast.eu.org'];
+const proxyIPs= ['62.3.12.185'];// OR USE const proxyIPs = ['cdn.xn--b6gac.eu.org', 'cdn-all.xn--b6gac.eu.org', 'edgetunnel.anycast.eu.org'];
 
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
 
-let dohURL = 'https://cloudflare-dns.com/dns-query';
+let dohURL = 'https://94.140.14.14/dns-query';
 
 let panelVersion = '2.3.2';
 
